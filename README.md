@@ -29,13 +29,13 @@ It uses Habitica’s official API to:
 
 ##  MVP (v1.0)
 
-### 🪙 Habitica Integration
+###  Habitica Integration
 - Connect using Habitica User ID + API Token  
 - Read stats: **gold, level, XP, HP**  
 - Spend gold via Habitica reward tasks  
 - Validate credentials using `/api/v3/user`
 
-### ⏱️ Gold → Minutes Conversion
+###  Gold → Minutes Conversion
 Define your own conversion rate, e.g.:
 
 - **10 gold → 30 minutes**  
@@ -47,7 +47,7 @@ Before starting a session:
 2. You choose how much to spend  
 3. HabitBound converts that gold into gaming minutes  
 
-### 🎮 Game Session Enforcement
+###  Game Session Enforcement
 HabitBound:
 - Launches your game executable  
 - Tracks the running process  
@@ -62,7 +62,7 @@ At timeout:
 
 #  Nice-to-Have / v2+ Features
 
-## 🆙 Level-Based Daily Allowance Scaling
+##  Level-Based Daily Allowance Scaling
 Your Habitica level increases your **free daily gaming allowance**, even before spending gold.
 
 Example defaults:
