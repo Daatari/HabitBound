@@ -8,7 +8,7 @@ This transforms gaming into a **reward loop**, not a distraction.
 
 ---
 
-# 🎯 Core Concept
+#  Core Concept
 
 > “Complete real habits and tasks in Habitica.  
 > Earn gold, XP, and levels.  
@@ -25,9 +25,9 @@ It uses Habitica’s official API to:
 
 ---
 
-# ✨ Features
+#  Features
 
-## 🚀 MVP (v1.0)
+##  MVP (v1.0)
 
 ### 🪙 Habitica Integration
 - Connect using Habitica User ID + API Token  
@@ -60,7 +60,7 @@ At timeout:
 
 ---
 
-# ⭐ Nice-to-Have / v2+ Features
+#  Nice-to-Have / v2+ Features
 
 ## 🆙 Level-Based Daily Allowance Scaling
 Your Habitica level increases your **free daily gaming allowance**, even before spending gold.
@@ -78,7 +78,7 @@ You get rewarded for long-term habit building by unlocking more natural playtime
 
 ---
 
-## 😴 Snooze Feature (Costs Habitica HP)
+##  Snooze Feature (Costs Habitica HP)
 When time expires, you can **snooze** instead of quitting — but it costs HP.
 
 Example:
@@ -104,7 +104,7 @@ Configure each game independently:
 
 ---
 
-## 🎁 Banked Time Mode
+##  Banked Time Mode
 Alternative model:
 - You buy “+30 minutes game time” as a Habitica reward  
 - HabitBound detects purchases and converts them into a time bank  
@@ -112,7 +112,7 @@ Alternative model:
 
 ---
 
-## 📊 Logs & Analytics
+##  Logs & Analytics
 Track:
 - Game played  
 - Minutes purchased  
@@ -129,7 +129,7 @@ Analytics:
 
 ---
 
-# 🧠 How It Works
+#  How It Works
 
 ## 1. Authentication
 User enters:
@@ -181,9 +181,9 @@ Options:
 
 ---
 
-# 🧩 Technical Stack
+#  Technical Stack
 
-### 💻 UI
+###  UI
 - **React + TypeScript**  
 - TailwindCSS or similar  
 - Desktop wrapper via **Tauri** (preferred) or Electron  
@@ -203,7 +203,7 @@ Options:
 
 ---
 
-# 🗂️ Example Configuration (`config.json`)
+#  Example Configuration (`config.json`)
 
 ```json
 {
@@ -283,12 +283,15 @@ Banked-time model
 
 Multi-platform support
 
-📜 License
+ License
 MIT License
 
-🤝 Contributing
+ Contributing
 Pull requests and issue discussions are welcome.
 
-👤 Author
+ Author
+
+Danny Atari
+Toronto, Canada
 Danny Atari
 Toronto, Canada
